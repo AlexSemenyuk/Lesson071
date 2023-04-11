@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Done</title>
+    <link rel='stylesheet' href="resources/css/pico.min.css">
+    <link rel='stylesheet' href="resources/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+</head>
+<body>
+<main class='container'>
+    <div>
+        <div>
+            <a class='but-done' role='button' href='/Lesson071/'>Home</a>
+        </div>
+    </div>
+    <div class='tasks'>
+        <div class='sort-task'>
+            <h2 class="h">Your done task's list</h2>
+            <div class="sort-cont">
+                <form class="sort-form" method="get">
+                    <select id="sort" name="sort">
+                        <option value="Category">Category</option>
+                        <option value="Deadline">Deadline</option>
+                        <option value="Priority">Priority</option>
+                    </select>
+                    <input class="but-sort" type="submit" value="Sort"/>
+                </form>
+            </div>
+        </div>
+        %s
+    </div>
+</main>
+</body>
+</html>
